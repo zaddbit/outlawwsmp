@@ -1,0 +1,12 @@
+name: OutlawSMPComplete
+version: '1.0'
+main: com.outlaw.OutlawSMP
+api-version: '1.21'
+author: Developer
+description: The complete OutlawSMP codebase implementation with all 12 skills, 3 perks, bounties, hearts, menus, and configurations.
+
+commands:
+  outlaw:
+    description: Base command for OutlawSMP system management and interfaces.
+    usage: /outlaw [menu|give|bounty|sethearts]
+    permission: outlaw.use
